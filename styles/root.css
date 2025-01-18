@@ -1,0 +1,17 @@
+:root {
+  --spacer: 1rem;
+
+  --clr-neutral-900: #171717;
+  --clr-neutral-700: #333;
+  --clr-neutral-300: #cfcfcf;
+  --clr-neutral-100: #fff;
+  --clr-accent-400: #59e89c;
+  --clr-accent-500: #00986a;
+
+  --ff-primary: 'PT Sans', sans-serif;
+
+  --fw-700: 700;
+  --fw-400: 400;
+
+  --box-shadow: 0 0.25em 1.5em rgba(0, 0, 0, 0.15);
+}

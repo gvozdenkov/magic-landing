@@ -1,0 +1,24 @@
+.cta {
+  --flow-gap: 2.5rem;
+
+  background-size: cover;
+  background-blend-mode: multiply;
+  text-align: center;
+
+  > .container {
+    display: grid;
+    justify-items: center;
+  }
+
+  p {
+    max-width: 33.75rem;
+  }
+}
+
+.cta.bg-accent {
+  background-image: url(../../assets/cta-bg-1.jpg);
+}
+
+.cta.bg-light {
+  background-image: url(../../assets/cta-bg-2.jpg);
+}

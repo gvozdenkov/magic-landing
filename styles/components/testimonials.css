@@ -1,0 +1,10 @@
+.testimonials {
+  --flow-gap: 2.5rem;
+  --section-padding: 10rem;
+}
+
+.testimonials__list {
+  --split-gap: 5.625rem;
+
+  margin-block: 7.5rem 0;
+}

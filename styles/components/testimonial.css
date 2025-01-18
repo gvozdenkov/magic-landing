@@ -1,0 +1,13 @@
+.testimonial {
+  padding: calc(var(--spacer) * 2);
+  text-align: start;
+}
+
+.testimonial > p:first-of-type {
+  margin-block-end: 4rem;
+  font-style: italic;
+}
+
+.testimonial.bg-accent {
+  --accent: var(--clr-neutral-900);
+}

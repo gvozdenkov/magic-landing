@@ -1,0 +1,14 @@
+.hero {
+  --split-gap: 3rem;
+  --flow-gap: 2.5rem;
+}
+
+@media (width > 960px) {
+  .hero {
+    padding-block: 0;
+
+    img {
+      transform: translateY(2em);
+    }
+  }
+}

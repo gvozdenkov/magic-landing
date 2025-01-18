@@ -1,0 +1,22 @@
+.section-title {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: var(--fw-700);
+  line-height: 1.5;
+  color: var(--accent, var(--clr-accent-400));
+  background-color: var(--fg, var(--clr-neutral-900));
+  padding: 0.15em 0.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+h2,
+.h2 {
+  font-size: 2.25rem;
+  font-weight: var(--fw-700);
+  line-height: 1.25;
+}
+
+.page-heading {
+  font-weight: var(--fw-400);
+}

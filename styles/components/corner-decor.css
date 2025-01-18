@@ -1,0 +1,17 @@
+.corner-decor {
+  position: relative;
+}
+
+.corner-decor::before {
+  --_size: 4.125rem;
+  --_offset: -0.5rem;
+
+  content: '';
+  position: absolute;
+  top: var(--_offset);
+  left: var(--_offset);
+  width: var(--_size);
+  height: var(--_size);
+  z-index: -1;
+  background-color: var(--accent, var(--clr-accent-400));
+}
